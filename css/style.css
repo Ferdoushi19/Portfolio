@@ -1,0 +1,384 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+
+}
+/*
+<i class="fa fa-desktop" aria-hidden="true"></i>
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+/*******************
+banner section css
+********************/
+
+header{
+	position: absolute;
+	width: 100%;
+}
+.navbar-expand-lg {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    padding-top: 43px;
+}
+
+.nav-link{
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	color: white!important;
+
+
+}
+.nav-item{
+	margin: 0px 80px;
+	
+}
+
+.banner{
+	width: 100%;
+	padding: 80px 0px;
+	background-image: url(../img/background.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	
+}
+.overlay{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(20,22,25,0.7);
+}
+.banner-text{
+	color: #ffffff;
+	text-align: center;
+	padding-top: 220px;
+}
+.banner-text h1{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 52px;
+	font-weight: 700;
+}
+.banner-text p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	margin-top: 68px;
+}
+.banner-text a i{
+	color: #ffb233;
+	font-size: 34px;
+	margin-top: 120px;
+}
+.about-myself{
+	width: 100%;
+	padding: 80px 0px;
+	text-align: center;
+}
+.about-myself h2{
+    font-family: 'Open Sans', sans-serif;
+	font-size: 32px;
+    padding-bottom: 50px;
+
+
+}
+.about-myself h3{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	padding: 42px 0px;
+	color: #d5d5d5;
+
+}
+.about-myself p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	width: 116%;
+}
+.i-con{
+	text-align: center;
+	padding: 30px 0px;
+}
+.i-con ul li {
+	list-style: none;
+	display: inline-block;
+	font-size: 28px;
+	text-align: center;
+	margin: 0px 20px;
+}
+.i-con ul li a i{
+	color: white;
+    background-color: #c6c6c5;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 100%;
+    transition: 0.5s;
+
+}
+.i-con ul li a i:hover{
+	color: #51a351;
+	border: 2px #51a351;
+	transform: scale(1.3);
+	transition: 0.5s;
+}
+.about-myself .button{
+	border-radius: 25px;
+
+}
+.btn-primary {
+    color: #51a351;
+    background-color:transparent;
+    border-color:#51a351;
+
+}
+
+.suggestion{
+	width: 100%;
+	padding: 100px 0px;
+	background-image: url(../img/background-2.png);
+	height: 90vh;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	text-align: center;
+	position: relative;
+
+
+}
+.shadow{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(20,22,25,0.7);
+}
+.suggestion h1{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 36px;
+	color: white;
+	margin: 180px 0px 140px 0px;
+
+}
+.suggestion-icon{
+	margin: 80px 0px;
+}
+.suggestion-icon .col-md-3{
+	padding: 0;
+}
+.suggestion-icon a i{
+	color: white;
+	font-size: 30px;
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	line-height:80px;
+	background: #ffb233;
+
+}
+.suggestion-icon h6{
+	color: white;
+	font-size: 18px;
+	letter-spacing: 2px;
+	margin: 25px 0px;
+}
+.counter-plugin{
+	width: 100%;
+	padding: 70px 0px;
+	text-align: center;
+	background-color: #f3f4ff;
+
+}
+.counter-plugin h1{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 36px;
+	font-weight: 700;
+	padding: 48px 0px 20px 0px;
+	
+}
+.line{
+	height: 2px;
+	width: 50px;
+	background-color: #51a351;
+	margin: auto;
+}
+.counter-plugin p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	color: #707073;
+	font-style: italic;
+	padding: 30px;
+
+}
+.portfolio{
+	width: 100%;
+	padding: 80px 0px;
+	text-align: center;
+}
+.portfolio h1{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 32px;
+}
+.gallery ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0px 18px;
+}
+.gallery ul li a{
+	color: black;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+.gallery-pic{
+	display: flex;
+}
+.gallery-pic img{
+	margin-bottom: 12px;
+}
+.effect{
+	position: relative;
+	overflow: hidden;
+	margin: 8px;
+
+}
+.hover-text{
+	/*display: none;*/
+	position: absolute;
+	
+	left: 0;
+	bottom: 0;
+	right: 0;
+	bottom: 0;
+	height: 0%;
+	background-color: rgba(0;0;0;0.25);
+	padding: 15px;
+	text-align: left;
+	 transition: 0.5s;
+
+}
+.effect:hover .hover-text{
+	/*display: block;*/
+    height: 100%;
+    bottom: 0px;
+    transition: 0.5s;
+
+}
+.line2{
+	height: 3px;
+    width: 50px;
+    background-color: #1bae8e;
+
+}
+.hover-text h2{
+	color: #1bae8e;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+
+}
+.hover-text p{
+	color: #5c5956;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+
+
+}
+.hover-text a{
+	display: block;
+	text-align: center;
+}
+
+.hover-text a i{
+	height: 40px;
+	width: 40px;
+	border: 1px solid #5c5956;
+	line-height: 40px;
+	border-radius: 100%;
+	text-align: center;
+	color: #5c5956;
+}
+.testimonial{
+	width: 100%;
+	padding: 80px 0px;
+	background-image: url(../img/testimonial.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+
+}
+
+.testimonial h1{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 32px;
+
+
+}
+.testimonial p{
+	width: 54%;
+	margin: auto;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	color: #484848;
+
+}
+.testimonial h6{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+
+}
+.owl-carousel .owl-item img {
+    /* display: block; */
+    width: auto !important;
+    display: inline-block;
+}
+.contact-form{
+	width: 100%;
+	padding: 80px 0px;
+	background-image: url(../img/last-background.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+	height: 100vh;
+}
+.contact-form h1{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 32px;
+	color: white;
+
+}
+.contact-form h4{
+	color: white;
+}
+.contact-form h3{
+	color: white;
+}
+.contact-form p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: white;
+
+
+}
+.profile{
+	text-align: center;
+}
+
+.form{
+
+	
+
+}
