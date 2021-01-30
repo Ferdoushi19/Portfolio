@@ -24,6 +24,8 @@ banner section css
 header{
 	position: absolute;
 	width: 100%;
+	z-index: 1;
+
 }
 .navbar-expand-lg {
     flex-wrap: nowrap;
@@ -34,10 +36,27 @@ header{
 .nav-link{
 	font-size: 16px;
 	font-family: 'Open Sans', sans-serif;
-	color: white!important;
+	color: #ffffff!important;
+	position: relative;
 
 
 }
+.nav-link:before{
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 2px;
+	width: 0%;
+	background-color: red;
+
+}
+.nav-link:hover:before{
+	color: #51a351;
+	width: 100%;
+	transition: 0.5s;
+}
+
 .nav-item{
 	margin: 0px 80px;
 	
@@ -51,6 +70,7 @@ header{
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 100vh;
+	
 	
 }
 .overlay{
@@ -81,26 +101,28 @@ header{
 	font-size: 34px;
 	margin-top: 120px;
 }
-.about-myself{
+
+
+.about{
 	width: 100%;
 	padding: 80px 0px;
 	text-align: center;
 }
-.about-myself h2{
+.about h2{
     font-family: 'Open Sans', sans-serif;
 	font-size: 32px;
     padding-bottom: 50px;
 
 
 }
-.about-myself h3{
+.about h3{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 18px;
 	padding: 42px 0px;
 	color: #d5d5d5;
 
 }
-.about-myself p{
+.about p{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	width: 116%;
@@ -377,8 +399,46 @@ header{
 	text-align: center;
 }
 
-.form{
+.contact-us{
+	text-align: center;
+	padding-top: 100px;
+}
+.contact-us form input{
+	width: 24%;
+	background: transparent;
+	color: white;
+	padding: 10px;
+	border: 1px solid white;
+}
+.contact-us form .input-1{
+	margin-right: 10px;
+	margin-left: 10px;
 
-	
+}
+.contact-us form .input-2{
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.contact-us-text textarea{
+	width: 50%;
+    height: 150px;
+    padding: 15px;
+    background: transparent;
+    color: white;
+    margin-top: 20px;
+    border: 1px solid #fff;
+}
+.contact-us button{
+    cursor: pointer;
+    width: 50%;
+    margin-top: 20px;
+    background-color: #51a351;
+    border: 2px solid #51a351;
+    border-radius: 5px;
+    color: white;
+}
 
+.contact-us p{
+	color: white;
+	padding-top: 30px;
 }
